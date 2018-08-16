@@ -1,0 +1,10 @@
+~`From`~
+#1 Note regarding PEP 8 compliant names
+# 2 This threading model was originally inspired by Java, and inherited
+#3 the convention of camelCase function and method names from that
+# 4 language. Those original names are not in any imminent danger of
+#5 being deprecated (even for Py3k),so this module provides them as an
+# 6 alias for the PEP 8 compliant names
+#7 Note that using the new PEP 8 compliant names facilitates substitution
+# 8 with the multiprocessing module, which doesn't provide the old
+#9 Java inspired names.
